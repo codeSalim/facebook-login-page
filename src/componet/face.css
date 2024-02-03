@@ -1,0 +1,109 @@
+body{
+    background-image: url(./IMG_2810.JPEG.jpg);
+}
+.main{
+    border: solid rgb(255, 255, 255) 6px;
+    height: 23rem;
+    width: 20rem;
+    margin-left: 45rem;
+    margin-top: -17rem;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    display: flex;
+    align-items: center;
+    background-color: transparent
+
+    /* margin: 40px 0 0; */
+    /* padding: 20px 0 28px; */
+    /* width: 396px; */
+}
+.inner{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+.same{
+    border: solid black 1px;
+    border-radius: 6px;
+    font-size: 17px;
+    height: 2rem;
+    width: 18rem;
+    margin-left: 0.7rem;
+
+}
+.button{
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    height: 3rem;
+    width: 19rem;
+    background-color: blue;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+}
+.button:hover{
+    cursor: pointer;
+}
+.same:hover{
+    border: solid #1877f2 2px;
+
+}
+.button2{
+    /* border-radius: 5px; */
+    margin-top: 2rem;
+    margin-left: 3rem;
+    height: 3rem;
+    width: 14rem;
+    background-color: #42b72a;
+    color: #fff;
+    /* font-size: larger; */
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    display: inline-block;
+}
+.link{
+    margin-left: 6.5rem;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1rem;
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+}
+.logo{
+    /* position: absolute; */
+    height: 106px;
+    display: inline-block;
+    width: 300px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+/* .help{
+    font-size: 20px;
+    display: inline-block;
+    display: flex;
+    margin-left:-271px;
+} */
+.svg{
+    position: relative;
+    /* border: solid red 3px; */
+    width: 611px;
+}
+.h1{
+    margin-left: -18rem;
+    margin-top: 20rem;
+    position: absolute;
+    display: inline-block;
+    color: white;
+
+}
